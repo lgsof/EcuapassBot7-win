@@ -1,25 +1,27 @@
 @echo off
+chcp 850 > nul
 
 :: Add embedded :mingit to PATH
-set PATH=%~dp0mingit/cmd
+set PATH=%~dp0mingit/cmd;%PATH%
 
 echo ========================================================
-echo +++ Quitando Commander y GUI si aún están ejecutándos
+echo +++ Quitando previos Commander y GUI
 taskkill /IM "ecuapass_commander.exe" /F 2>nul 
 taskkill /FI "WINDOWTITLE eq EcuapassBot" /F
 
 echo ========================================================
 echo +++ Verificando disponibilidad de Git...
-where git >nul 2>nul
-if errorlevel 1 (
-    echo ERROR: Git no está instalado o no está en el PATH. Se omite la actualización.
-    goto ejecutar_app
+git --version >nul 2>&1
+if %ERRORLEVEL% EQU 0 (
+    set "GIT_CMD=git"
+) else (
+    set "GIT_CMD=%~dp0..\mingit\cmd\git.exe"
 )
 
 echo ========================================================
 echo +++ Verificando repositorio Git...
 if not exist ".git" (
-    echo ERROR: Carpeta .git no encontrada. Se omite la actualización.
+    echo ERROR: Carpeta .git no encontrada. Se omite la actualizaci�n.
     goto ejecutar_app
 )
 
@@ -31,19 +33,19 @@ echo ========================================================
 echo +++ Buscando actualizaciones...
 git fetch origin main
 if errorlevel 1 (
-    echo ADVERTENCIA: Falló git fetch. Se omite la actualización.
+    echo ADVERTENCIA: Fall� git fetch. Se omite la actualizaci�n.
     goto ejecutar_app
 )
 
 echo ========================================================
-echo +++ Archivos que se actualizarán:
+echo +++ Archivos que se actualizar�n:
 git --no-pager diff --name-status HEAD origin/main
 
 echo ========================================================
 echo +++ Aplicando actualizaciones...
 git reset --hard origin/main
 if errorlevel 1 (
-    echo ADVERTENCIA: Falló git reset. Continuando con los archivos actuales.
+    echo ADVERTENCIA: Fall� git reset. Continuando con los archivos actuales.
 )
 
 echo ========================================================
