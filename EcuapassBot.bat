@@ -1,40 +1,62 @@
-
 @echo off
 
-REM Kill server if it still is running
+:: Add embedded :mingit to PATH
+set PATH=%~dp0mingit/cmd
+
+echo ========================================================
+echo +++ Quitando Commander y GUI si aún están ejecutándos
 taskkill /IM "ecuapass_commander.exe" /F 2>nul 
 taskkill /FI "WINDOWTITLE eq EcuapassBot" /F
 
 echo ========================================================
-echo +++ Descargando Actualizaciones EcuapassBot...
+echo +++ Verificando disponibilidad de Git...
+where git >nul 2>nul
+if errorlevel 1 (
+    echo ERROR: Git no está instalado o no está en el PATH. Se omite la actualización.
+    goto ejecutar_app
+)
+
 echo ========================================================
-REM Prevent Git from overwriting the patched executable
-git update-index --assume-unchanged ecuapass_commander\ecuapass_commander.exe
+echo +++ Verificando repositorio Git...
+if not exist ".git" (
+    echo ERROR: Carpeta .git no encontrada. Se omite la actualización.
+    goto ejecutar_app
+)
 
-echo +++ Checking for updates...
+echo ========================================================
+echo +++ Evitando que Git sobrescriba el ejecutable parcheado...
+git update-index --assume-unchanged ecuapass_commander\ecuapass_commander.exe 2>nul
+
+echo ========================================================
+echo +++ Buscando actualizaciones...
 git fetch origin main
+if errorlevel 1 (
+    echo ADVERTENCIA: Falló git fetch. Se omite la actualización.
+    goto ejecutar_app
+)
 
-echo +++ Files to be updated:
+echo ========================================================
+echo +++ Archivos que se actualizarán:
 git --no-pager diff --name-status HEAD origin/main
 
-echo +++ Applying updates...
+echo ========================================================
+echo +++ Aplicando actualizaciones...
 git reset --hard origin/main
-
-REM REM Fetch and update repository while keeping user changes
-REM REM git fetch origin main  && ^
-REM REM git reset --keep origin/main && ^
-REM REM git pull origin main
+if errorlevel 1 (
+    echo ADVERTENCIA: Falló git reset. Continuando con los archivos actuales.
+)
 
 echo ========================================================
-echo +++ Actualizando commander...
-echo ========================================================
+echo +++ Actualizando ejecutable commander...
 call patches\ebotpatch-update-exe-win.bat
 
+:ejecutar_app
 echo ========================================================
 echo +++ Ejecutando EcuapassBot...
-echo ========================================================
 set JAVA=javaw
 if "%~1"=="debug" (
     set JAVA=java
 )
+
 start bin\jre-1.8\bin\%JAVA% -jar "bin\EcuapassBotGUI.jar"
+
