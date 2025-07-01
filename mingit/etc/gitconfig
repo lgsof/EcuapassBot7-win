@@ -25,4 +25,4 @@
 	path = C:/Program Files (x86)/Git/etc/gitconfig
 	path = C:/Program Files/Git/etc/gitconfig
 [http]
-	sslCAInfo = ./ssl/cacert-2025-02-25.pem
+	sslCAInfo = mingit/ssl/cacert-2025-02-25.pem
