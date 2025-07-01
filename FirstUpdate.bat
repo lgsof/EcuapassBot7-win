@@ -1,29 +1,29 @@
 @echo off
 setlocal
 
-:: 1) Put your bundled MinGit on the PATH
-set "PATH=%~dp0mingit\cmd;%PATH%"
+:: 1) Find a usable git: prefer system, else use sibling mingit\cmd\git.exe
+git --version >nul 2>&1
+if %ERRORLEVEL% EQU 0 (
+    set "GIT_CMD=git"
+) else (
+    set "GIT_CMD=%~dp0..\mingit\cmd\git.exe"
+)
 
-:: 2) Check for first run
-if not exist "%~dp0.git" goto :FirstRun
-goto :DoUpdate
+:: 2) Work in the app folder
+pushd "%~dp0"
 
-:FirstRun
-echo [First run] Initializing Git repository...
-git init
-git remote add origin https://github.com/lgsof/EcuapassBot7-win.git
-echo [First run] Fetching origin/main...
-git fetch origin main
-git reset --hard origin/main
+:: 3) First-time init
+if not exist ".git" (
+    echo Inicializando repositorio Git...
+    "%GIT_CMD%" init
+    "%GIT_CMD%" remote add origin https://github.com/lgsof/EcuapassBot7-wintest.git
+)
 
-:DoUpdate
-echo Protecting mingit/ from updates...
-for /f "delims=" %%F in ('git ls-files mingit') do git update-index --skip-worktree "%%F"
+:: 4) Always pull the latest
+echo Actualizando la aplicacion...
+"%GIT_CMD%" fetch origin main
+"%GIT_CMD%" reset --hard origin/main
 
-echo Updating application...
-git fetch origin main
-git reset --hard origin/main
-
+popd
 endlocal
-exit /b
 
