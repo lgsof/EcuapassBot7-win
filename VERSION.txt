@@ -1,1 +1,1 @@
-Jun/08: r0.9853: Improving deploy: improving bats
+Jul/07: r0.9865: First version of AUTOINSTALL EcuBot.

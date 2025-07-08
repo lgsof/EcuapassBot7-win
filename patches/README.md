@@ -6,6 +6,12 @@ Extracción y digitación automática de docuentos al ECUAPASS.
 
 
 ## LOG
+Jul/07: r0.9865: First version of AUTOINSTALL EcuBot.
+
+Jul/06: r0.9864: Working on checking authorized clients in google
+
+Jul/05: r0.9863: Working on COREDB Init Dialog
+
 Jul/01: r0.9862: Working on Install https COREDB::config mingit.
 
 Jun/27: r0.9861: Moved repo to lgsof from lgarreta
