@@ -1,1 +1,1 @@
-Jul/07: r0.9865: First version of AUTOINSTALL EcuBot.
+Jul/09: r0.9866: EcuBot7 Installed in TRNSCMI. Fixed: MRN (gnral). Descripcion (rturn). Embalajes (Unidad, Tarima). MCI Ids (OTROS)

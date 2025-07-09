@@ -6,6 +6,8 @@ Extracción y digitación automática de docuentos al ECUAPASS.
 
 
 ## LOG
+Jul/09: r0.9866: EcuBot7 Installed in TRNSCMI. Fixed: MRN (gnral). Descripcion (rturn). Embalajes (Unidad, Tarima). MCI Ids (OTROS)
+
 Jul/07: r0.9865: First version of AUTOINSTALL EcuBot.
 
 Jul/06: r0.9864: Working on checking authorized clients in google
