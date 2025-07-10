@@ -12,15 +12,6 @@ cd /d "%~dp0"
 REM Check/Create log file 
 if not exist "%LOG_FILE%" type nul > "%LOG_FILE%"
 
-REM Ensure original exe file exists
-if not exist "%ORIGINAL_EXE%" (
-    echo +++ Creating original backup: %ORIGINAL_EXE%
-    copy "%CURRENT_EXE%" "%ORIGINAL_EXE%" >nul || (
-        echo !!! ERROR: Failed to create backup. Aborting.
-        goto end
-    )
-)
-
 REM Find the single patch file (e.g., patch_001.vcdiff)
 set "PATCH_FILE="
 for /f "delims=" %%F in ('dir /b patch_*.vcdiff 2^>nul') do set "PATCH_FILE=%%F"
@@ -64,7 +55,7 @@ del "%CURRENT_EXE%" && (
     )
 )
 
-del PATCH_FILE
+del %PATCH_FILE%
 
 REM Prepend to log file (newest first)
 echo %PATCH_VERSION% > temp.log

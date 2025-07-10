@@ -26,10 +26,6 @@ if not exist ".git" (
 )
 
 echo ========================================================
-echo +++ Evitando que Git sobrescriba el ejecutable parcheado...
-git update-index --assume-unchanged ecuapass_commander\ecuapass_commander.exe 2>nul
-
-echo ========================================================
 echo +++ Buscando actualizaciones...
 git fetch origin main
 if errorlevel 1 (
