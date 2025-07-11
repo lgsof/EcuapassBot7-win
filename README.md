@@ -6,6 +6,8 @@ Extracción y digitación automática de docuentos al ECUAPASS.
 
 
 ## LOG
+Jul/11: r0.9870: Improved Install GUI (simply, tabs, PO validations). Removed bot MCI add CPI. Improved MCI::Chasis.
+
 Jul/10: r0.9870: Improved getCargaInfo.
 
 Jul/10: r0.9869: Tested new patching model (no commander exe). Improved contenedores extraction.

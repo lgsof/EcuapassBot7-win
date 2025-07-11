@@ -1,1 +1,1 @@
-Jul/10: r0.9870: Improved getCargaInfo.
+Jul/11: r0.9870: Improved Install GUI (simply, tabs, PO validations). Removed bot MCI add CPI. Improved MCI::Chasis.
