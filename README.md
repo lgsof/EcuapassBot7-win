@@ -6,6 +6,10 @@ Extracción y digitación automática de docuentos al ECUAPASS.
 
 
 ## LOG
+Jul/15: r0.9872: Fixed TRNSCMI carga. Added "preformatCertificate" to MCI (for TSP).
+
+Jul/12: r0.9871: Fixed COREDB Web access (urlPrefix, getDocFields)
+
 Jul/11: r0.9870: Improved Install GUI (simply, tabs, PO validations). Removed bot MCI add CPI. Improved MCI::Chasis.
 
 Jul/10: r0.9870: Improved getCargaInfo.
