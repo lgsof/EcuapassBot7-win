@@ -6,6 +6,8 @@ Extracción y digitación automática de docuentos al ECUAPASS.
 
 
 ## LOG
+Jul/18: r0.9873: Improved getTipoEmbalaje, getTipoContainer, cloud creation.
+
 Jul/15: r0.9872: Fixed TRNSCMI carga. Added "preformatCertificate" to MCI (for TSP).
 
 Jul/12: r0.9871: Fixed COREDB Web access (urlPrefix, getDocFields)
