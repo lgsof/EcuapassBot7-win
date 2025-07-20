@@ -52,7 +52,7 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
-Jul/19: r0.9874: Added update client settings by application on startup.
+Jul/19: r0.9874: Added configuration update from the application
 
 Jul/18: r0.9873: Improved getTipoEmbalaje, getTipoContainer, cloud creation.
 
@@ -60,7 +60,7 @@ Jul/15: r0.9872: Fixed TRNSCMI carga. Added "preformatCertificate" to MCI (for T
 
 Jul/12: r0.9871: Fixed COREDB Web access (urlPrefix, getDocFields)
 
-Jul/11: r0.9870: Improved Install GUI (simply, tabs, PO validations). Removed bot MCI add CPI. Improved MCI::Chasis.
+Jul/11: r0.9870: Improved Installation GUI (simply, tabs, PO validations). 
 
 Jul/10: r0.9870: Improved getCargaInfo.
 
