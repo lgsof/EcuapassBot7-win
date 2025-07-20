@@ -1,3 +1,5 @@
+📄 [English version](README.en.md)
+
 # 🧾 EcuapassBot – Automatización inteligente de documentos para ECUAPASS
 
 **EcuapassBot** es una aplicación de escritorio diseñada para **automatizar la creación y transmisión de documentos aduaneros** exigidos por el sistema **ECUAPASS** del Ecuador, especialmente en el contexto del **transporte terrestre internacional de carga**.
