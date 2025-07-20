@@ -9,8 +9,7 @@ echo +++ Quitando previos Commander y GUI
 taskkill /IM "ecuapass_commander.exe" /F 2>nul 
 taskkill /FI "WINDOWTITLE eq EcuapassBot" /F
 
-echo ========================================================
-echo +++ Verificando disponibilidad de Git...
+echo ====== Verificando disponibilidad de Git =======================
 git --version >nul 2>&1
 if %ERRORLEVEL% EQU 0 (
     set "GIT_CMD=git"
@@ -18,39 +17,37 @@ if %ERRORLEVEL% EQU 0 (
     set "GIT_CMD=%~dp0..\mingit\cmd\git.exe"
 )
 
-echo ========================================================
-echo +++ Verificando repositorio Git...
+echo ====== Verificando si existe repositorio Git ===================
 if not exist ".git" (
     echo ERROR: Carpeta .git no encontrada. Se omite la actualización.
     goto ejecutar_app
 )
 
-echo ========================================================
-echo +++ Buscando actualizaciones...
+echo ====== Evitar actualizacio del commander =======================
+git update-index --skip-worktree ecuapass_commander\ecuapass_commander.exe
+
+
+echo ====== Buscando actualizaciones ================================
 git fetch origin main
 if errorlevel 1 (
     echo ADVERTENCIA: Falló git fetch. Se omite la actualización.
     goto ejecutar_app
 )
 
-echo ========================================================
-echo +++ Archivos que se actualizarán:
+echo ====== Archivos que se actualizan ==============================
 git --no-pager diff --name-status HEAD origin/main
 
-echo ========================================================
-echo +++ Aplicando actualizaciones...
+echo ====== Aplicando actualizaciones ===============================
 git reset --hard origin/main
 if errorlevel 1 (
     echo ADVERTENCIA: Falló git reset. Continuando con los archivos actuales.
 )
 
-echo ========================================================
-echo +++ Actualizando ejecutable commander...
+echo ====== Parchando Commander =====================================
 call patches\ebotpatch-update-exe-win.bat
 
 :ejecutar_app
-echo ========================================================
-echo +++ Ejecutando EcuapassBot...
+echo ======= Ejecutando EcuapassBot =================================
 set JAVA=javaw
 if "%~1"=="debug" (
     set JAVA=java

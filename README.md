@@ -1,11 +1,57 @@
-# EcuapassBot7: 
-Extracción y digitación automática de docuentos al ECUAPASS.
-- Empresas in pycommander
-- Windows GUI
-- Web y Pdfs 
+# 🧾 EcuapassBot – Automatización inteligente de documentos para ECUAPASS
 
+**EcuapassBot** es una aplicación de escritorio diseñada para **automatizar la creación y transmisión de documentos aduaneros** exigidos por el sistema **ECUAPASS** del Ecuador, especialmente en el contexto del **transporte terrestre internacional de carga**.
+
+Está orientada a **empresas transportistas**, **agentes de aduana** y **operadores logísticos**, y permite generar y transmitir automáticamente documentos como:
+
+- 📝 **Cartas de porte**
+- 📦 **Manifiestos de carga**
+- 📄 **Declaraciones de Tránsito**
+
+Gracias a su capacidad de extracción de datos desde los documentos PDF o desde el portal web donde se elaboran, EcuapassBot **minimiza errores de digitación**, **reduce tiempos de operación** y **mejora la eficiencia del proceso logístico y aduanero**.
+
+---
+
+## ⚙️ Características técnicas
+
+EcuapassBot es una solución híbrida y modular compuesta por:
+
+- ✅ **Frontend en Java (Swing)**: interfaz de usuario moderna y ligera, compatible con Windows.
+- ✅ **Backend en Python**: empaquetado como ejecutable independiente con PyInstaller.
+- ✅ **Extracción inteligente de datos**: 
+  - Desde PDFs (mediante OCR y parsing estructurado)
+  - Desde sitios web generadores de documentos (ej. Codebini o Sitios web de las empresas)
+- ✅ **Robot de software avanzado**: 
+  - Simula interacciones con el sistema ECUAPASS
+  - Transmite documentos sin intervención manual
+- ✅ **Actualización automática**: descarga y aplica parches desde GitHub sin sobrescribir archivos personalizados.
+- ✅ **IA embebida (en desarrollo)**: autocompletado de campos basado en el historial de documentos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- `Java 17+` (Swing)
+- `Python 3.10+` + `PyInstaller`
+- `pdfminer`, `pytesseract` (OCR y parsing de texto)
+- `xdelta3` (parcheo binario)
+- `Git` (para actualizaciones)
+- [Ollama](https://ollama.com) (para IA local, en desarrollo)
+
+---
+
+## 💼 Licenciamiento
+
+EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación en hasta **dos dispositivos**.
+
+🔗 Más información comercial:  
+👉 [https://softwareinteligente.github.io/productos/ecuapass-bot/](https://softwareinteligente.github.io/productos/ecuapass-bot/)
+
+---
 
 ## LOG
+Jul/19: r0.9874: Added update client settings by application on startup.
+
 Jul/18: r0.9873: Improved getTipoEmbalaje, getTipoContainer, cloud creation.
 
 Jul/15: r0.9872: Fixed TRNSCMI carga. Added "preformatCertificate" to MCI (for TSP).
@@ -22,40 +68,3 @@ Jul/10: r0.9868: Removed commander exe from git (created when patched)
 
 Jul/09: r0.9867: EcuBot7 for COREBD::TSP (Without customs, no full test)
 
-Jul/09: r0.9866: EcuBot7 Installed in TRNSCMI. Fixed: MRN (gnral). Descripcion (rturn). Embalajes (Unidad, Tarima). MCI Ids (OTROS)
-
-Jul/07: r0.9865: First version of AUTOINSTALL EcuBot.
-
-Jul/06: r0.9864: Working on checking authorized clients in google
-
-Jul/05: r0.9863: Working on COREDB Init Dialog
-
-Jul/01: r0.9862: Working on Install https COREDB::config mingit.
-
-Jun/27: r0.9861: Moved repo to lgsof from lgarreta
-
-Jun/25: r0.9860: Testing .git embedded in installer.
-
-Jun/24: r0.9859: Resources from root dir. Removed Java resources from tmp-ecuapassdocs
-
-Jun/21: r0.9858: COREBD settings ended: PDF and WEB.
-|
-Jun/19: r0.9857: COREBD settings::GUI-CMM. Options Salir|Config. Removed feedback. NO MCI::Json. 
-
-Jun/19: r0.9856: COREBD settings::GUI-CMM Dataconfig. Working on configs.
-
-Jun/16: r0.9855: Working on COREBD settings install::GUI Setup ready.
-
-Jun/08: r0.9854: Improving deploy: added deployment to dev dir
-
-Jun/08: r0.9853: Improving deploy: improving bats
-
-Jun/08: r0.9852: Improving win/wintest deploy: script for deploy, patches with datetimes
-
-Jun/04: r0.9851: First version (nowin) for BtSt.
-Jun/03: r0.9850: Relocated Bot dirs: info, resources. Testing BTST: config, classes, and CPI:getSubjectInfo
-
-May/27: r0.9848: Moved Java Initial PDF Scrapping to Python. Added Online Authorization check. 
-May/24: r0.9847: Simplifying Scraping classes (02)
-May/24: r0.9846: Simplifying Scraping classes (01)
-May/22: r0.9845: Moving Java info to Py info.
