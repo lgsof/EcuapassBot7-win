@@ -52,6 +52,10 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Jul/20: r0.9875: Fixed onTop: Settings Frame instead Dialog. Splash window.
+
+Jul/20: r0.9875: Added VBS script to start with message. Modified GUI to start on top.
+
 Jul/19: r0.9874: Added configuration update from the application
 
 Jul/18: r0.9873: Improved getTipoEmbalaje, getTipoContainer, cloud creation.
