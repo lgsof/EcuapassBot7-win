@@ -52,7 +52,9 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
-Jul/20: r0.9875: Fixed onTop: Settings Frame instead Dialog. Splash window.
+Jul/23: v.7.0.3.6: Improved GUI Top Bar: Icons Bot, Salir, Config, Whatsapp
+
+Jul/21: r0.9875: Codebini Install. Fixed Settings onTop: Frame instead Dialog. Splash window.
 
 Jul/20: r0.9875: Added VBS script to start with message. Modified GUI to start on top.
 

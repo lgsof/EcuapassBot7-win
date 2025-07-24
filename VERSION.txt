@@ -1,1 +1,1 @@
-Jul/20: r0.9875: Fixed onTop: Settings Frame instead Dialog. Splash window.
+v7.0.3.6
