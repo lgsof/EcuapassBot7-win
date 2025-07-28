@@ -1,0 +1,241 @@
+Código,Ciudad,Provincia
+[000],Cuenca,Azuay
+[001],Gualaceo,Azuay
+[002],Paute,Azuay
+[003],Santa Isabel,Azuay
+[004],Nabón,Azuay
+[005],Girón,Azuay
+[006],Sígsig,Azuay
+[007],Chordeleg,Azuay
+[008],San Fernando,Azuay
+[009],Camilo Ponce Enríquez,Azuay
+[010],Guaranda,Bolívar
+[011],San Miguel,Bolívar
+[012],Chillanes,Bolívar
+[013],Caluma,Bolívar
+[014],Echeandía,Bolívar
+[015],Chimbo,Bolívar
+[016],Las Naves,Bolívar
+[017],Simiatug,Bolívar
+[018],Facundo Vela,Bolívar
+[019],Salinas,Bolívar
+[020],Azogues,Cañar
+[021],Biblián,Cañar
+[022],La Troncal,Cañar
+[023],El Tambo,Cañar
+[024],Suscal,Cañar
+[025],Déleg,Cañar
+[026],Cañar,Cañar
+[027],Honorato Vásquez,Cañar
+[028],Gonzol,Cañar
+[029],Zhud,Cañar
+[030],Tulcán,Carchi
+[031],Mira,Carchi
+[032],Montúfar,Carchi
+[033],Huaca,Carchi
+[034],Espejo,Carchi
+[035],Bolívar,Carchi
+[036],El Ángel,Carchi
+[037],Julio Andrade,Carchi
+[038],Cristóbal Colón,Carchi
+[039],Santa Martha de Cuba,Carchi
+[040],Riobamba,Chimborazo
+[041],Guano,Chimborazo
+[042],Alausí,Chimborazo
+[043],Chambo,Chimborazo
+[044],Colta,Chimborazo
+[045],Cumandá,Chimborazo
+[046],Pallatanga,Chimborazo
+[047],Penipe,Chimborazo
+[048],Chunchi,Chimborazo
+[049],Guamote,Chimborazo
+[050],Latacunga,Cotopaxi
+[051],Salcedo,Cotopaxi
+[052],Saquisilí,Cotopaxi
+[053],Pujilí,Cotopaxi
+[054],La Maná,Cotopaxi
+[055],Sigchos,Cotopaxi
+[056],Mulaló,Cotopaxi
+[057],Toacazo,Cotopaxi
+[058],Tanicuchí,Cotopaxi
+[059],Guaytacama,Cotopaxi
+[060],Machala,El Oro
+[061],Santa Rosa,El Oro
+[062],Pasaje,El Oro
+[063],Huaquillas,El Oro
+[064],Arenillas,El Oro
+[065],El Guabo,El Oro
+[066],Zaruma,El Oro
+[067],Piñas,El Oro
+[068],Portovelo,El Oro
+[069],Balsas,El Oro
+[070],Esmeraldas,Esmeraldas
+[071],Atacames,Esmeraldas
+[072],Rioverde,Esmeraldas
+[073],Quinindé,Esmeraldas
+[074],San Lorenzo,Esmeraldas
+[075],Muisne,Esmeraldas
+[076],Eloy Alfaro,Esmeraldas
+[077],Viche,Esmeraldas
+[078],Tonsupa,Esmeraldas
+[079],La Concordia,Esmeraldas
+[080],Puerto Ayora,Galápagos
+[081],Puerto Baquerizo Moreno,Galápagos
+[082],Puerto Villamil,Galápagos
+[083],Santa Rosa,Galápagos
+[084],Bellavista,Galápagos
+[085],El Progreso,Galápagos
+[086],Tomás de Berlanga,Galápagos
+[087],Isabela,Galápagos
+[088],Floreana,Galápagos
+[089],Baltra,Galápagos
+[090],Guayaquil,Guayas
+[091],Durán,Guayas
+[092],Samborondón,Guayas
+[093],Milagro,Guayas
+[094],Daule,Guayas
+[095],Yaguachi,Guayas
+[096],Naranjal,Guayas
+[097],El Triunfo,Guayas
+[098],Salitre,Guayas
+[099],Pedro Carbo,Guayas
+[100],Ibarra,Imbabura
+[101],Otavalo,Imbabura
+[102],Cotacachi,Imbabura
+[103],Antonio Ante,Imbabura
+[104],Pimampiro,Imbabura
+[105],Urcuquí,Imbabura
+[106],La Esperanza,Imbabura
+[107],San Antonio,Imbabura
+[108],Ambuquí,Imbabura
+[109],Chaltura,Imbabura
+[110],Loja,Loja
+[111],Catamayo,Loja
+[112],Macará,Loja
+[113],Cariamanga,Loja
+[114],Zapotillo,Loja
+[115],Celica,Loja
+[116],Puyango,Loja
+[117],Saraguro,Loja
+[118],Pindal,Loja
+[119],Espíndola,Loja
+[120],Babahoyo,Los Ríos
+[121],Quevedo,Los Ríos
+[122],Vinces,Los Ríos
+[123],Ventanas,Los Ríos
+[124],Buena Fe,Los Ríos
+[125],Valencia,Los Ríos
+[126],Mocache,Los Ríos
+[127],Puebloviejo,Los Ríos
+[128],Urdaneta,Los Ríos
+[129],Baba,Los Ríos
+[130],Portoviejo,Manabí
+[131],Manta,Manabí
+[132],Chone,Manabí
+[133],Jipijapa,Manabí
+[134],Montecristi,Manabí
+[135],Rocafuerte,Manabí
+[136],Bahía de Caráquez,Manabí
+[137],El Carmen,Manabí
+[138],Paján,Manabí
+[139],Pedernales,Manabí
+[140],Macas,Morona Santiago
+[141],Santiago,Morona Santiago
+[142],Sucúa,Morona Santiago
+[143],Logroño,Morona Santiago
+[144],Huamboya,Morona Santiago
+[145],Palora,Morona Santiago
+[146],San Juan Bosco,Morona Santiago
+[147],Taisha,Morona Santiago
+[148],Gualaquiza,Morona Santiago
+[149],Limón Indanza,Morona Santiago
+[150],Tena,Napo
+[151],Archidona,Napo
+[152],El Chaco,Napo
+[153],Quijos,Napo
+[154],Carlos Julio Arosemena,Napo
+[155],Papallacta,Napo
+[156],Baeza,Napo
+[157],Santa Rosa,Napo
+[158],Hatun Sumaku,Napo
+[159],Puerto Napo,Napo
+[160],Francisco de Orellana,Orellana
+[161],Joya de los Sachas,Orellana
+[162],Loreto,Orellana
+[163],Aguarico,Orellana
+[164],Nuevo Rocafuerte,Orellana
+[165],Taracoa,Orellana
+[166],Tiputini,Orellana
+[167],Pompeya,Orellana
+[168],Dayuma,Orellana
+[169],Coca,Orellana
+[170],Puyo,Pastaza
+[171],Santa Clara,Pastaza
+[172],Mera,Pastaza
+[173],Arajuno,Pastaza
+[174],Curaray,Pastaza
+[175],Shell,Pastaza
+[176],Teniente Hugo Ortiz,Pastaza
+[177],Tarqui,Pastaza
+[178],Simón Bolívar,Pastaza
+[179],Pomona,Pastaza
+[180],Quito,Pichincha
+[181],Cayambe,Pichincha
+[182],Mejía,Pichincha
+[183],Pedro Moncayo,Pichincha
+[184],Pedro Vicente Maldonado,Pichincha
+[185],Puerto Quito,Pichincha
+[186],Rumiñahui,Pichincha
+[187],San Miguel de los Bancos,Pichincha
+[188],Tabacundo,Pichincha
+[189],Calacalí,Pichincha
+[190],Santa Elena,Santa Elena
+[191],La Libertad,Santa Elena
+[192],Salinas,Santa Elena
+[193],Ballenita,Santa Elena
+[194],Anconcito,Santa Elena
+[195],Chanduy,Santa Elena
+[196],Manglaralto,Santa Elena
+[197],Valdivia,Santa Elena
+[198],Simón Bolívar,Santa Elena
+[199],Atahualpa,Santa Elena
+[200],Santo Domingo,Santo Domingo de los Tsáchilas
+[201],La Concordia,Santo Domingo de los Tsáchilas
+[202],Puerto Limón,Santo Domingo de los Tsáchilas
+[203],Alluriquín,Santo Domingo de los Tsáchilas
+[204],Valle Hermoso,Santo Domingo de los Tsáchilas
+[205],El Esfuerzo,Santo Domingo de los Tsáchilas
+[206],Santa María del Toachi,Santo Domingo de los Tsáchilas
+[207],Plan Piloto,Santo Domingo de los Tsáchilas
+[208],Zaracay,Santo Domingo de los Tsáchilas
+[209],Julio Moreno,Santo Domingo de los Tsáchilas
+[210],Nueva Loja,Sucumbíos
+[211],Shushufindi,Sucumbíos
+[212],Lago Agrio,Sucumbíos
+[213],Cascales,Sucumbíos
+[214],Cuyabeno,Sucumbíos
+[215],Gonzalo Pizarro,Sucumbíos
+[216],Putumayo,Sucumbíos
+[217],Tarapoa,Sucumbíos
+[218],Pacayacu,Sucumbíos
+[219],Puerto El Carmen,Sucumbíos
+[220],Ambato,Tungurahua
+[221],Baños,Tungurahua
+[222],Pelileo,Tungurahua
+[223],Píllaro,Tungurahua
+[224],Tisaleo,Tungurahua
+[225],Patate,Tungurahua
+[226],Mocha,Tungurahua
+[227],Cevallos,Tungurahua
+[228],Quero,Tungurahua
+[229],Santa Rosa,Tungurahua
+[230],Zamora,Zamora Chinchipe
+[231],Yantzaza,Zamora Chinchipe
+[232],El Pangui,Zamora Chinchipe
+[233],Centinela del Cóndor,Zamora Chinchipe
+[234],Paquisha,Zamora Chinchipe
+[235],Chinchipe,Zamora Chinchipe
+[236],Palanda,Zamora Chinchipe
+[237],Nangaritza,Zamora Chinchipe
+[238],Yacuambi,Zamora Chinchipe
+[239],Zumba,Zamora Chinchipe

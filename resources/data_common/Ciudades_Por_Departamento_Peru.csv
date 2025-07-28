@@ -1,0 +1,251 @@
+Código,Ciudad,Departamento
+[000],Chachapoyas,Amazonas
+[001],Bagua,Amazonas
+[002],Utcubamba,Amazonas
+[003],Jumbilla,Amazonas
+[004],La Peca,Amazonas
+[005],Copallín,Amazonas
+[006],Jazan,Amazonas
+[007],Cajaruro,Amazonas
+[008],Milpuc,Amazonas
+[009],Santo Tomás,Amazonas
+[010],Huaraz,Áncash
+[011],Chimbote,Áncash
+[012],Casma,Áncash
+[013],Caraz,Áncash
+[014],Yungay,Áncash
+[015],Huarmey,Áncash
+[016],Recuay,Áncash
+[017],Huari,Áncash
+[018],Pomabamba,Áncash
+[019],Corongo,Áncash
+[020],Abancay,Apurímac
+[021],Andahuaylas,Apurímac
+[022],Talavera,Apurímac
+[023],Chalhuanca,Apurímac
+[024],Tamburco,Apurímac
+[025],Antabamba,Apurímac
+[026],Chincheros,Apurímac
+[027],Grau,Apurímac
+[028],Pachaconas,Apurímac
+[029],Pacobamba,Apurímac
+[030],Arequipa,Arequipa
+[031],Camana,Arequipa
+[032],Mollendo,Arequipa
+[033],Caravelí,Arequipa
+[034],Chivay,Arequipa
+[035],Chuquibamba,Arequipa
+[036],Aplao,Arequipa
+[037],Yura,Arequipa
+[038],La Joya,Arequipa
+[039],Majes,Arequipa
+[040],Ayacucho,Ayacucho
+[041],Huanta,Ayacucho
+[042],San Miguel,Ayacucho
+[043],Vilcashuamán,Ayacucho
+[044],San Francisco,Ayacucho
+[045],Puquio,Ayacucho
+[046],Coracora,Ayacucho
+[047],Pausa,Ayacucho
+[048],Cangallo,Ayacucho
+[049],Tambo,Ayacucho
+[050],Cajamarca,Cajamarca
+[051],Jaén,Cajamarca
+[052],Chota,Cajamarca
+[053],Cutervo,Cajamarca
+[054],Celendín,Cajamarca
+[055],San Ignacio,Cajamarca
+[056],Contumazá,Cajamarca
+[057],San Marcos,Cajamarca
+[058],Hualgayoc,Cajamarca
+[059],Bambamarca,Cajamarca
+[060],Callao,Callao
+[061],Bellavista,Callao
+[062],La Perla,Callao
+[063],Carmen de la Legua,Callao
+[064],La Punta,Callao
+[065],Ventanilla,Callao
+[066],Mi Perú,Callao
+[067],Chucuito,Callao
+[068],Puerto Nuevo,Callao
+[069],Marques,Callao
+[070],Cusco,Cusco
+[071],Sicuani,Cusco
+[072],Quillabamba,Cusco
+[073],Espinar,Cusco
+[074],Calca,Cusco
+[075],Urcos,Cusco
+[076],Pisac,Cusco
+[077],Santa Teresa,Cusco
+[078],Wanchaq,Cusco
+[079],San Sebastián,Cusco
+[080],Huancavelica,Huancavelica
+[081],Lircay,Huancavelica
+[082],Acobamba,Huancavelica
+[083],Castrovirreyna,Huancavelica
+[084],Tayacaja,Huancavelica
+[085],Churcampa,Huancavelica
+[086],Huaytará,Huancavelica
+[087],Pampas,Huancavelica
+[088],Anta,Huancavelica
+[089],Yauli,Huancavelica
+[090],Huánuco,Huánuco
+[091],Tingo María,Huánuco
+[092],Ambo,Huánuco
+[093],Panao,Huánuco
+[094],Puerto Inca,Huánuco
+[095],La Unión,Huánuco
+[096],Yarowilca,Huánuco
+[097],Dos de Mayo,Huánuco
+[098],Maranura,Huánuco
+[099],Chaglla,Huánuco
+[100],Ica,Ica
+[101],Pisco,Ica
+[102],Chincha Alta,Ica
+[103],Nazca,Ica
+[104],Palpa,Ica
+[105],Tate,Ica
+[106],Parcona,Ica
+[107],Subtanjalla,Ica
+[108],San Clemente,Ica
+[109],Túpac Amaru Inca,Ica
+[110],Huancayo,Junín
+[111],La Oroya,Junín
+[112],Tarma,Junín
+[113],Jauja,Junín
+[114],Chanchamayo,Junín
+[115],Satipo,Junín
+[116],Yauli,Junín
+[117],Junín,Junín
+[118],Pangoa,Junín
+[119],Mazamari,Junín
+[120],Trujillo,La Libertad
+[121],Chepén,La Libertad
+[122],Pacasmayo,La Libertad
+[123],Ascope,La Libertad
+[124],Otuzco,La Libertad
+[125],Julcán,La Libertad
+[126],Sánchez Carrión,La Libertad
+[127],Gran Chimú,La Libertad
+[128],Virú,La Libertad
+[129],Guadalupe,La Libertad
+[130],Chiclayo,Lambayeque
+[131],Lambayeque,Lambayeque
+[132],Ferreñafe,Lambayeque
+[133],José Leonardo Ortiz,Lambayeque
+[134],Pomalca,Lambayeque
+[135],Zaña,Lambayeque
+[136],Picsi,Lambayeque
+[137],La Victoria,Lambayeque
+[138],Reque,Lambayeque
+[139],Monsefú,Lambayeque
+[140],Lima,Lima
+[141],Huacho,Lima
+[142],Huaral,Lima
+[143],Barranca,Lima
+[144],Cañete,Lima
+[145],Chosica,Lima
+[146],San Vicente de Cañete,Lima
+[147],Chancay,Lima
+[148],Huarochirí,Lima
+[149],Canta,Lima
+[150],Iquitos,Loreto
+[151],Nauta,Loreto
+[152],Yurimaguas,Loreto
+[153],Requena,Loreto
+[154],Contamana,Loreto
+[155],Caballococha,Loreto
+[156],Indiana,Loreto
+[157],Pevas,Loreto
+[158],Ramon Castilla,Loreto
+[159],San Lorenzo,Loreto
+[160],Puerto Maldonado,Madre de Dios
+[161],Iberia,Madre de Dios
+[162],Laberinto,Madre de Dios
+[163],Tambopata,Madre de Dios
+[164],Inambari,Madre de Dios
+[165],Huepetuhe,Madre de Dios
+[166],Fitzcarrald,Madre de Dios
+[167],Manú,Madre de Dios
+[168],Las Piedras,Madre de Dios
+[169],Tahuamanu,Madre de Dios
+[170],Moquegua,Moquegua
+[171],Ilo,Moquegua
+[172],Omate,Moquegua
+[173],Carumas,Moquegua
+[174],Torata,Moquegua
+[175],Samegua,Moquegua
+[176],Cuchumbaya,Moquegua
+[177],San Cristóbal,Moquegua
+[178],Chojata,Moquegua
+[179],El Algarrobal,Moquegua
+[180],Cerro de Pasco,Pasco
+[181],Oxapampa,Pasco
+[182],Villa Rica,Pasco
+[183],Pozuzo,Pasco
+[184],Daniel Alcides Carrión,Pasco
+[185],Chaupimarca,Pasco
+[186],Yanacancha,Pasco
+[187],Ticlacayan,Pasco
+[188],Paucartambo,Pasco
+[189],Huariaca,Pasco
+[190],Piura,Piura
+[191],Sullana,Piura
+[192],Talara,Piura
+[193],Paita,Piura
+[194],Chulucanas,Piura
+[195],Catacaos,Piura
+[196],Sechura,Piura
+[197],Las Lomas,Piura
+[198],Ayabaca,Piura
+[199],Tambogrande,Piura
+[200],Puno,Puno
+[201],Juliaca,Puno
+[202],Azángaro,Puno
+[203],Ilave,Puno
+[204],Yunguyo,Puno
+[205],Ayaviri,Puno
+[206],Putina,Puno
+[207],Lampa,Puno
+[208],Juli,Puno
+[209],Huancané,Puno
+[210],Moyobamba,San Martín
+[211],Tarapoto,San Martín
+[212],Lamas,San Martín
+[213],Bellavista,San Martín
+[214],Juanjui,San Martín
+[215],Saposoa,San Martín
+[216],Rioja,San Martín
+[217],Tocache,San Martín
+[218],El Dorado,San Martín
+[219],San José de Sisa,San Martín
+[220],Tacna,Tacna
+[221],Alto de la Alianza,Tacna
+[222],Ciudad Nueva,Tacna
+[223],Pocollay,Tacna
+[224],Calana,Tacna
+[225],Sama,Tacna
+[226],Ilabaya,Tacna
+[227],Locumba,Tacna
+[228],Palca,Tacna
+[229],Tarata,Tacna
+[230],Tumbes,Tumbes
+[231],Zarumilla,Tumbes
+[232],Aguas Verdes,Tumbes
+[233],Corrales,Tumbes
+[234],Papayal,Tumbes
+[235],Matapalo,Tumbes
+[236],La Cruz,Tumbes
+[237],San Juan de la Virgen,Tumbes
+[238],Canoas de Punta Sal,Tumbes
+[239],Pampas de Hospital,Tumbes
+[240],Pucallpa,Ucayali
+[241],Atalaya,Ucayali
+[242],Yurúa,Ucayali
+[243],Raymondi,Ucayali
+[244],Iparía,Ucayali
+[245],Campo Verde,Ucayali
+[246],Purús,Ucayali
+[247],Callería,Ucayali
+[248],Nueva Requena,Ucayali
+[249],Manantay,Ucayali
