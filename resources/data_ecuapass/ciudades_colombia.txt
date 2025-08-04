@@ -228,7 +228,6 @@
 [VPZ] Villapinzon
 [VVC] Villavicencio
 [AYG] Yaguara
-[AYI] Yai (Yarinacocha)
 [VAB] Yavarate
 [YMB] Yumbo
 [AZT] Zapatoca

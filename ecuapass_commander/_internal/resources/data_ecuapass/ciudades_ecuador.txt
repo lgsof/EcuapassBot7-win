@@ -52,7 +52,7 @@
 [PDL] Pedernales
 [CAR] Pedro Carbo
 [PEL] PELILEO
-[PIN] PI??AS
+[PIN] PIÑAS
 [PVO] Portoviejo
 [PSJ] Posorja
 [AYO] Puerto Ayora, Isla Santa Cruz

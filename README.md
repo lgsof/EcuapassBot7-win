@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Aug/03: v.7.0.3.9: Improved Infos: extract, subject, cityCountry, container, id, certificates. InitPdf. GUI focus.
+
 Jul/29: v.7.0.3.7: Improved Installer (WApp). Checking Login. Improved createClient: added BTST 
 
 Jul/28: v.7.0.3.7: Improved getSubjectInfo. Moved GUI buttons
