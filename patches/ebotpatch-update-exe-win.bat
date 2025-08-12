@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: File paths
 set "LOG_FILE=patches.log"
-set "CURRENT_EXE=..\ecuapass_commander\ecuapass_commander.exe"
+set "CURRENT_EXE=..\ecuapass_commander\ecuapass_commander.exe"Renew-Settings for CBINI (TSP, LGT). Improved install: down, exe, upd,run.
 set "ORIGINAL_EXE=..\ecuapass_commander\ecuapass_commander_original.exe"
 ::set "NEW_EXE=..\ecuapass_commander\new_ecuapass_commander.exe"
 

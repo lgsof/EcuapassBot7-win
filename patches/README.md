@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Aug/11: v.7.0.3.11: Improved number handling. BtSt reqs: subjectInfo, Embalaje
+
 Aug/06: v.7.0.3.10: Renew-Settings for CBINI (TSP, LGT). Improved install: down, exe, upd,run.
 
 Aug/03: v.7.0.3.9: Improved Infos: extract, subject, cityCountry, container, id, certificates. InitPdf. GUI focus.
