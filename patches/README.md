@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Aug/149 v.7.0.3.16: BTST: Fixed no UTF for "1/2" Py and Jv
+
 Aug/14: v.7.0.3.15: Done BTST reqs: Apertura, Volumen. Fized TRNSCMI settings
 
 Aug/13: v.7.0.3.12: Checking TCMI errors
