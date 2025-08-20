@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Aug/20 v.7.0.3.19: Improved BTST USD and id when OTROS
+
 Aug/20 v.7.0.3.18: Fixed chars in json.load EcuInfoMnf
 
 Aug/19 v.7.0.3.17: Added MenuIzq 1920x1080x150
