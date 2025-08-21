@@ -52,7 +52,7 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
-Aug/21 v.7.0.3.19: Fixed BTST OTROS. Improved Utils.checkLow with message
+Aug/21 v.7.0.3.20: Fixed BTST OTROS. Improved Utils.checkLow with message
 
 Aug/20 v.7.0.3.19: Improved BTST USD and id when OTROS
 
