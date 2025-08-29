@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Aug/29 v.7.0.3.22: Fixed EcuapassBot.bat: new TAG search.
+
 Aug/28 v.7.0.3.21: Improved TCMI values (integer, floats). Improved BTST cantidad, embalaje
 
 Aug/21 v.7.0.3.20: Fixed BTST OTROS. Improved Utils.checkLow with message

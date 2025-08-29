@@ -1,4 +1,5 @@
 @echo off
+setlocal EnableDelayedExpansion
 chcp 850 > nul
 
 echo ====== Verificando disponibilidad de Git =======================
@@ -13,33 +14,24 @@ echo ==== Quitando previos Commander y GUI ==================
 taskkill /IM "ecuapass_commander.exe" /F 2>nul 
 taskkill /FI "WINDOWTITLE eq EcuapassBot" /F
 
-echo ==== Buscando release en git ==================
-setlocal EnableDelayedExpansion
 
-for /f "delims=" %%L in ('
-  curl -s -H "User-Agent: batch" "https://api.github.com/repos/lgsof/EcuapassBot7-win/tags"
-') do (
-  set "JSON=%%L"
-  goto :parse
+echo ==== Obteniendo Ultimo release en GitHub ==================
+for /f %%A in ('
+  powershell -NoProfile -Command ^
+    "(Invoke-RestMethod -Headers @{\"User-Agent\"=\"batch\"} -Uri https://api.github.com/repos/lgsof/EcuapassBot7-win/releases/latest).tag_name"
+') do set "LATEST_TAG=%%A"
+
+if not defined LATEST_TAG (
+  echo ERROR: No se pudo obtener el último tag desde GitHub.
+  goto :ejecutar_app
 )
 
-:parse
-REM Buscar el valor entre "name":" y la siguiente comilla
-for %%A in (!JSON!) do (
-  set "PART=%%A"
-  REM Buscar el prefijo "name":" y extraer el siguiente token
-  for /f "tokens=2 delims=:" %%B in ("!PART!") do (
-    set "TAG_TMP=%%B" & set "TAG_TMP=!TAG_TMP:,=!" & set "TAG_TMP=!TAG_TMP:"=!"
-    set "LATEST_TAG=!TAG_TMP!"
-    goto :done
-        )
-)
-:done
+echo Ultimo tag: !LATEST_TAG!
 
 echo ==== Leyendo VERSION.txt ========================
 if not exist VERSION.txt (
     echo ERROR: Archivo VERSION.txt no encontrado.
-    goto ejecutar_actualizacion
+    goto :ejecutar_actualizacion
 )
 set /p "LOCAL_TAG=" < VERSION.txt
 
@@ -51,7 +43,7 @@ echo --------------------------------------------------------
 :: === Comparar versiones
 if "!LATEST_TAG!"=="!LOCAL_TAG!" (
     echo +++ Version local ya estaba actualizada.
-    goto ejecutar_app
+    goto :ejecutar_app
 )
 
 :ejecutar_actualizacion
@@ -59,7 +51,7 @@ if "!LATEST_TAG!"=="!LOCAL_TAG!" (
 echo ====== Verificando si existe repositorio Git ===================
 if not exist ".git" (
     echo ERROR: Carpeta .git no encontrada. Se omite la actualizacion.
-    goto ejecutar_app
+    goto :ejecutar_app
 )
 
 echo ====== Evitando que se actualize el commander =======================
@@ -69,7 +61,7 @@ echo ====== Buscando actualizaciones ================================
 git fetch origin main
 if %ERRORLEVEL% EQU 1 (
     echo ADVERTENCIA: Fallo en git fetch. Se omite la actualizacion.
-    goto ejecutar_app
+    goto :ejecutar_app
 )
 
 echo ====== Archivos que se actualizan ==============================
