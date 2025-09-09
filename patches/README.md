@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Sep/09 v.7.0.3.23: Added InfoClass for TSP: MCI-noObsInst. Modified EcuapassView and childs constructors.
+
 Aug/29 v.7.0.3.22: Fixed EcuapassBot.bat: new TAG search.
 
 Aug/28 v.7.0.3.21: Improved TCMI values (integer, floats). Improved BTST cantidad, embalaje
