@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Sep/11 v.7.0.3.23: Changed BTST CPI Format: txt01
+
 Sep/11 v.7.0.3.23: Changed BTST MCI Format: txt02, txt03.
 
 Sep/09 v.7.0.3.23: Added InfoClass for TSP: MCI-noObsInst. Modified EcuapassView and childs constructors.
