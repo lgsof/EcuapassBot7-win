@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Sep/29 v.7.0.3.25: Fixed 'buscarEmpresa' for TRNSMI
+
 Sep/11 v.7.0.3.24: Changed BTST CPI Format: txt01
 
 Sep/11 v.7.0.3.23: Changed BTST MCI Format: txt02, txt03.
