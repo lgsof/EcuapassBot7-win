@@ -52,7 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
-Nov/10 v7.0.3.25: Testing SILOG
+Nov/14 v7.0.3.25.2: Fixing coords SILOG. Removed "-" NIT
+Nov/13 v7.0.3.25.1: Testing SILOG
 
 Nov/10 v7.0.3.24.6: Working on SILOG bot
 Nov/10 v7.0.3.24.6: Improved getSubject: REs in resdata. Improved city from mult sources.
