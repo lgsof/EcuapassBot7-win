@@ -1,0 +1,130 @@
+{
+  "Amazonas": {
+    "capital": "Leticia",
+    "ciudades": "Leticia, Puerto Narino, La Pedrera, La Chorrera, Puerto Santander, Tarapaca, Miriti-Parana, Puerto Arica, Puerto Alegria, El Encanto"
+  },
+  "Antioquia": {
+    "capital": "Medellin",
+    "ciudades": "Medellin, Bello, Itagui, Envigado, Apartado, Carepa, Copacabana, La Ceja, Sabaneta, Rionegro, Marinilla, Turbo, Necocli, Caucasia, Andes, Jerico, Sonson, San Carlos, San Rafael, El Bagre"
+  },
+  "Arauca": {
+    "capital": "Arauca",
+    "ciudades": "Arauca, Arauquita, Saravena, Tame, Fortul, Puerto Rondon, Cravo Norte"
+  },
+  "Atlantico": {
+    "capital": "Barranquilla",
+    "ciudades": "Barranquilla, Soledad, Malambo, Sabanalarga, Baranoa, Puerto Colombia, Sabanagrande, Usiacuri, Juan de Acosta, Palmar de Varela, Campo de la Cruz, Candelaria, Manati, Piojo, Repelon, Suan, Tubara, Luruaco, Ponedera, Galapa"
+  },
+  "Bolivar": {
+    "capital": "Cartagena",
+    "ciudades": "Cartagena, Magangue, El Carmen de Bolivar, Turbaco, Arjona, San Juan Nepomuceno, Maria La Baja, San Jacinto, Soplaviento, Calamar, Cicuco, Cordoba, Hatillo de Loba, Mompos, Pinillos, Regidor, Rio Viejo, San Cristobal, San Estanislao, San Fernando"
+  },
+  "Boyaca": {
+    "capital": "Tunja",
+    "ciudades": "Tunja, Sogamoso, Duitama, Chiquinquira, Villa de Leyva, Puerto Boyaca, Samaca, Moniquira, Paipa, Tibasosa, Sachica, Raquira, Nobsa, Combita, Toca, Oicata, Cucaita, Sora, Soraca, Tuta"
+  },
+  "Caldas": {
+    "capital": "Manizales",
+    "ciudades": "Manizales, La Dorada, Chinchina, Villamaria, Riosucio, Salamina, Aguadas, Anserma, Neira, Palestina, Samana, Aranzazu, Belalcazar, Filadelfia, Manzanares, Marmato, Marquetalia, Norcasia, Pacora, Supia"
+  },
+  "Caqueta": {
+    "capital": "Florencia",
+    "ciudades": "Florencia, Puerto Rico, San Vicente del Caguan, Cartagena del Chaira, Belen de los Andaquies, Albania, Curillo, El Doncello, El Paujil, La Montanita, Milan, Morelia, San Jose del Fragua, Valparaiso"
+  },
+  "Casanare": {
+    "capital": "Yopal",
+    "ciudades": "Yopal, Aguazul, Villanueva, Paz de Ariporo, Tauramena, Trinidad, Mani, Orocue, Sabanalarga, San Luis de Palenque, Nunchia, Hato Corozal, La Salina, Sacama, Tamara, Recetor, Chameza, Pore"
+  },
+  "Cauca": {
+    "capital": "Popayan",
+    "ciudades": "Popayan, Santander de Quilichao, Puerto Tejada, Patia, Piendamo, Guapi, Caldono, Bolivar, Corinto, El Tambo, La Vega, Miranda, Paez, Suarez, Timbio, Totoro, Cajibio, Morales, Padilla, Guachene"
+  },
+  "Cesar": {
+    "capital": "Valledupar",
+    "ciudades": "Valledupar, Aguachica, Codazzi, Curumani, La Paz, Becerril, Chimichagua, El Copey, Gamarra, La Gloria, Pelaya, Pueblo Bello, Rio de Oro, San Alberto, San Diego, San Martin, Tamalameque, Astrea, Bosconia, El Paso"
+  },
+  "Choco": {
+    "capital": "Quibdo",
+    "ciudades": "Quibdo, Istmina, Condoto, Riosucio, Tado, Bagado, Certegui, Lloro, Novita, Acandi, Alto Baudo, Atrato, Bajo Baudo, Bojaya, Carmen del Darien, Certegui, El Canton de San Pablo, El Carmen de Atrato, Jurado, Lloro"
+  },
+  "Cordoba": {
+    "capital": "Monteria",
+    "ciudades": "Monteria, Cerete, Lorica, Sahagun, Montelibano, Planeta Rica, Tierralta, Puerto Escondido, San Andres de Sotavento, San Antero, San Bernardo del Viento, San Carlos, San Pelayo, Cienaga de Oro, Chima, Chinu, Los Cordobas, Monitos, Pueblo Nuevo, Valencia"
+  },
+  "Cundinamarca": {
+    "capital": "Bogota",
+    "ciudades": "Bogota, Soacha, Fusagasuga, Girardot, Facatativa, Zipaquira, Chia, Mosquera, Madrid, Funza, Cajica, Sopo, Tocancipa, La Calera, Ubaté, Fusagasuga, Gachancipa, Guaduas, La Mesa, Villeta"
+  },
+  "Guainia": {
+    "capital": "Inirida",
+    "ciudades": "Inirida, Barranco Minas, Cacahual, La Guadalupe, Morichal, Pana Pana, Puerto Colombia"
+  },
+  "Guaviare": {
+    "capital": "San Jose del Guaviare",
+    "ciudades": "San Jose del Guaviare, Calamar, El Retorno, Miraflores"
+  },
+  "Huila": {
+    "capital": "Neiva",
+    "ciudades": "Neiva, Pitalito, Garzon, La Plata, Campoalegre, Palermo, Aipe, Tello, Baraya, Yaguara, Villavieja, San Agustin, Isnos, Altamira, Rivera, Tesalia, Teruel, Agrado, Oporapa, Saladoblanco"
+  },
+  "La Guajira": {
+    "capital": "Riohacha",
+    "ciudades": "Riohacha, Maicao, Uribia, Manaure, Albania, Barrancas, Dibulla, Distraccion, El Molino, Fonseca, Hatonuevo, La Jagua del Pilar, San Juan del Cesar, Urumita, Villanueva"
+  },
+  "Magdalena": {
+    "capital": "Santa Marta",
+    "ciudades": "Santa Marta, Cienaga, Fundacion, Plato, El Banco, Aracataca, Pueblo Viejo, Sitionuevo, Chivolo, Concordia, El Reten, Pivijay, Remolino, Salamina, San Sebastian, San Zenon, Santa Ana, Santa Barbara de Pinto, Sabanas de San Angel, Zapayan"
+  },
+  "Meta": {
+    "capital": "Villavicencio",
+    "ciudades": "Villavicencio, Acacias, Granada, Puerto Lopez, San Martin, Cumaral, Puerto Gaitan, La Macarena, Vista Hermosa, Restrepo, Cabuyaro, Castilla la Nueva, Cubarral, El Castillo, El Dorado, Fuente de Oro, Guamal, Lejanias, Mesetas, Puerto Lleras"
+  },
+  "Narino": {
+    "capital": "Pasto",
+    "ciudades": "Pasto, Tumaco, Ipiales, Samaniego, La Union, Sandona, Tuquerres, Barbacoas, El Charco, Francisco Pizarro, La Cruz, Leiva, Los Andes, Mallama, Mosquera, Olaya Herrera, Policarpa, Potosi, Providencia, Ricaurte"
+  },
+  "Norte de Santander": {
+    "capital": "Cucuta",
+    "ciudades": "Cucuta, Ocana, Pamplona, Los Patios, Villa del Rosario, El Zulia, Sardinata, Tibu, Abrego, Cachira, Cucuta, Chinacota, Convencion, Cucuta, Durania, El Carmen, El Tarra, Gramalote, Hacari, Herran"
+  },
+  "Putumayo": {
+    "capital": "Mocoa",
+    "ciudades": "Mocoa, Puerto Asis, Puerto Leguizamo, Orito, San Miguel, Valle del Guamuez, Villagarzon, Colon, Santiago, San Francisco"
+  },
+  "Quindio": {
+    "capital": "Armenia",
+    "ciudades": "Armenia, Calarca, La Tebaida, Montenegro, Quimbaya, Circasia, Cordoba, Buenavista, Filandia, Genova, Pijao, Salento"
+  },
+  "Risaralda": {
+    "capital": "Pereira",
+    "ciudades": "Pereira, Dosquebradas, Santa Rosa de Cabal, La Virginia, Belen de Umbria, Santuario, Marsella, Pueblo Rico, Quinchia, Apia, Balboa, Guatica, Mistrato"
+  },
+  "San Andres y Providencia": {
+    "capital": "San Andres",
+    "ciudades": "San Andres, Providencia, Santa Isabel"
+  },
+  "Santander": {
+    "capital": "Bucaramanga",
+    "ciudades": "Bucaramanga, Floridablanca, Giron, Piedecuesta, Barrancabermeja, San Gil, Socorro, Malaga, Sabana de Torres, Puerto Wilches, Lebrija, Rionegro, Cimitarra, El Playon, Barbosa, Bolivar, Capitanejo, Cepita, Cerrito, Charala"
+  },
+  "Sucre": {
+    "capital": "Sincelejo",
+    "ciudades": "Sincelejo, Corozal, San Marcos, Sampues, Covenas, Tolu, Toluviejo, San Onofre, Palmito, Morroa, Los Palmitos, Galeras, Chalan, Coloso, Ovejas, Betulia, El Roble, San Antonio de Palmito, San Benito Abad, San Juan de Betulia"
+  },
+  "Tolima": {
+    "capital": "Ibague",
+    "ciudades": "Ibague, Espinal, Melgar, Honda, Mariquita, Libano, Fresno, Chaparral, San Sebastian de Mariquita, Armero, Falan, Flandes, Herveo, Lerida, Libano, Murillo, Natagaima, Ortega, Palocabildo, Piedras"
+  },
+  "Valle del Cauca": {
+    "capital": "Cali",
+    "ciudades": "Cali, Buenaventura, Palmira, Buga, Tuluá, Cartago, Jamundi, Yumbo, Florida, Pradera, Zarzal, La Union, Caicedonia, El Cerrito, Roldanillo, Sevilla, Dagua, El Dovio, Guacari, San Pedro"
+  },
+  "Vaupes": {
+    "capital": "Mitu",
+    "ciudades": "Mitu, Caruru, Taraira, Pacoa, Papunahua, Yavarate"
+  },
+  "Vichada": {
+    "capital": "Puerto Carreno",
+    "ciudades": "Puerto Carreno, Cumaribo, La Primavera, Santa Rosalia"
+  }
+}
