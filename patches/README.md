@@ -52,15 +52,6 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
-Nov/19 v7.0.3.29.0: Release with SILOG updates.
-
-Nov/19 v7.0.3.28.7: SILOG: update ciudad with capital if it is not in Ecuapass
-Nov/18 v7.0.3.28.6: Improved getValueRE
-Nov/18 v7.0.3.28.5: SILOG Two Empresa Names
-Nov/18 v7.0.3.28.4: SILOG reqs: NIT, Contenerized, two MCIs.
-Nov/16 v7.0.3.28.3: MCI:SILOG: Rewritten contenerized functions.
-Nov/16 v7.0.3.28.2: Reorganized packages: bot, core, info. CPIs: removed zeros in Gastos. CPIs:SILOG: Removed "-" 
-Nov/14 v7.0.3.28.1: Improved EcuCheck (Testing)
 Nov/14 v7.0.3.28.0: sendFile to SLG.
 
 Nov/14 v7.0.3.27.2: Fixing coords SLG. Removed "-" NIT
