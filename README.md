@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Nov/19 v7.0.3.30.0: Restored stable version
+
 Nov/14 v7.0.3.28.0: sendFile to SLG.
 
 Nov/14 v7.0.3.27.2: Fixing coords SLG. Removed "-" NIT
