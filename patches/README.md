@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Nov/20 v7.0.3.31.0: BTST: Fixed getPermisoOriginario.
+
 Nov/19 v7.0.3.30.0: SILOG: Modified coords. Added getBoxes to ScrapingPdf
 
 Nov/19 v7.0.3.29.0: Release with SILOG updates.
