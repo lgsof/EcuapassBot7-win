@@ -52,6 +52,11 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Dic/10 v7.0.3.36.0: Redesign for SILOG reqs. New Region class. Improved associations (city, mark).
+
+Dic/10 v7.0.3.35.9: Fixing marcas
+Dic/10 v7.0.3.35.8: Added DBG check.
+
 Dic/09 v7.0.3.35.7: Improved pesos check. Improved EcuCheck. Improved bot speed (~30s)
 
 Dic/07 v7.0.3.35.6: Pesos fixed. Improved EcuCheck. Improved bot speed (~30s)
