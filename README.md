@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Dic/19 v7.0.3.39.0: Improved telemetry: more time, less polls. Added SLG empresaInfo.
+
 Dic/18 v7.0.3.37.1: Added telemetry for ALL.
 
 Dic/15 v7.0.3.36.0: Redesign for SILOG reqs. New Region class. Improved associations (city, mark).
