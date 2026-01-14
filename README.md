@@ -52,6 +52,8 @@ EcuapassBot se licencia por país y empresa. Cada licencia incluye instalación 
 ---
 
 ## LOG
+Jan/09 v7.0.3.43.0: Rollback to v40, renaming patch.
+
 Jan/09 v7.0.3.40.0: Removing telemetry for ALL. Refactor EcuCloud and spec file.
 
 Dic/15 v7.0.3.36.0: Redesign for SILOG reqs. New Region class. Improved associations (city, mark).
